@@ -1,6 +1,6 @@
 {
-  "name": "Hindi Game",
-  "description": "Hindi Game",
+  "name": "BollyGame",
+  "description": "BollyGame",
   "repository": "https://github.com/Shashank-Ojha/SongGame",
   "keywords": ["node", "express", "static"]
 }

@@ -5,7 +5,7 @@
 	{"q":"songs/Sawan Aaya Hai.mp3","a":"Sawan Aaya Hai"},
 	{"q":"songs/Tu Meri.mp3","a":"Tu Meri"},
 	{"q":"songs/Tujh Mein Rab Dikhta Hai.mp3","a":"Tujh Mein Rab Dikhta Hai"},
-	{"q":"songs/Tum Hi Ho.mp3","a":"Tum Hi Ho"}, --
+	{"q":"songs/Tum Hi Ho.mp3","a":"Tum Hi Ho"},
 	{"q":"songs/Haule Haule.mp3","a":"Haule Haule"},
 	{"q":"songs/Jeena Jeena.mp3","a":"Jeena Jeena"},
 	{"q":"songs/Kabhi Alvida Naa Kehna.mp3","a":"Kabhi Alvida Naa Kehna"},
