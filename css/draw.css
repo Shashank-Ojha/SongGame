@@ -1,0 +1,93 @@
+body
+{
+	background-color: black;
+}
+#topMenu
+{
+	margin: 0px;
+}
+#leftMenu
+{
+	margin: 0px;
+	height: 100%;
+	float: left;
+}	
+#rightMenu
+{
+	height: 100%;
+	float: right;
+}
+#drawing
+{
+	display: inline-block;
+    border-width: 0px;
+    margin: 0px;
+    text-align: center;
+    width: 70%;
+}
+#canvas
+{
+	border:1px solid #ffffff;
+}
+#noti_center
+{
+	text-align: center;
+	color:black;
+}
+h5
+{
+	text-align: center;
+	color: black;
+}
+#warning
+{
+	padding-left: 10%;
+	display: none;	
+}
+#title
+{
+	font-family: 'Serifa W01 55 Roman', 'Serifa Std', 'Serifa', 'Museo Slab', 'Rockwell', georgia, serif;
+}
+#idea
+{
+color:white;
+}
+#ink
+{
+color:#b3d88c;
+}
+#tabs
+{
+	text-align: left; 
+}
+.ui.left.attached.inverted.purple.button
+{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#slider p
+{
+	text-align: center;
+	color: white;
+	/*font-family: bold;*/
+	font-size: 125%;
+	font-style: bold;
+}
+#messages
+{
+	margin: 0;
+	padding: 0;
+	background: #ffffff; 
+	height:200px; 
+	width:100%; 
+	overflow:auto;
+	font-size: 10px;
+}
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(odd) { background: #eee; }
+#inputChat
+{
+	margin: 0;
+	padding: 0;
+	width: inherit;
+}

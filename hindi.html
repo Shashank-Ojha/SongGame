@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Name the formula</title>
+	<!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="hindi.css" type="text/css">
+	</head>
+	<body>
+	    <audio id="myAudio1"></audio>
+	    <audio id="myAudio2"></audio>
+	    <script src="hindi.js"></script>
+	    <script type="text/javascript">
+	    getReady();
+	    </script>
+		<h1>Name the Hindi Song</h1>
+		<h2 id="question"></h2>
+		<input id="input" type="text" placeholder="Type to Begin Timer">
+		<h2 id = "timer">3:00<h2>
+		<div style="display:inline-block">
+		<button type="button" onclick = "begin()">Start</button>
+		<button type="button" onclick = "reset()">Reset</button>
+		<button type="button" onclick = "skip()">Skip</button>
+		</div>
+		<h2 id="message"></h2>
+		<table id="table">
+		</table>
+		<p>Note that there is a short delay when switching songs</p>
+		<p>
+		<strong>Spelling Hints:</strong>
+		Haule Haule,
+		Jeena Jeena,
+		Kabhi Alvida Naa Kehna,
+		Kabhi Khushi Kabhi Gham,
+		Kal Ho Naa Ho,
+		Kashmir Main Tu Kanyakumari,
+		Kuch Kuch Hota Hai,
+		Main Agar Kahoon,
+		Main Hoon Na,
+		Mast Magan,
+		Mere Khwabon Mein Jo Aaye,
+		Maa,
+		Mitwa,
+		Sawan Aaya Hai,
+		Tu Meri,
+		Tujh Mein Rab Dikhta Hai,
+		Tum Hi Ho
+		</p>
+		<a type="button" onclick = "quit()">Quit</a>
+
+		<script src="jquery.min.js"></script>
+    	<script src="hindi.js"></script>
+
+		 <script type="text/javascript">
+			$(document).ready(function() {
+			    $.getScript('hindi.js');
+			});
+		</script>
+	</body>
+
+</html>
